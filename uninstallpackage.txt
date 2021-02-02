@@ -1,0 +1,1 @@
+pip uninstall (package name, e.g = pandas)

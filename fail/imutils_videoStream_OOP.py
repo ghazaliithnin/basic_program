@@ -1,0 +1,89 @@
+import tkinter
+import cv2
+import PIL.Image, PIL.ImageTk
+import time
+from imutils.video import VideoStream
+
+class Aplikasi:
+
+    def __init__(self, window, window_title,video_source=1):
+        self.window = window
+        self.window.title(window_title)
+        self.video_source = video_source
+
+
+
+        # open video source
+        self.vid = Buka_Video(video_source)
+
+        # Create a canvas that can fit the above video source size
+        self.canvas = tkinter.Canvas(window, width = self.vid.width,
+                                    height=self.vid.height)
+        self.canvas.pack()
+
+        # Snapshot Button
+        self.btn_snapshot = tkinter.Button(window, text = "Snapshot", width =50,command=self.snapshot)
+        self.btn_snapshot.pack(anchor=tkinter.CENTER, expand = True)
+
+        # After it is called once, the update method auto called every delay
+        self.delay = 15
+        self.update()
+
+
+
+
+        self.window.mainloop()
+    '''
+    def snapshot(self):
+        # Get a frame from the video sourcer
+        ret, frame = self.vid.get_frame()
+
+        if ret:
+            frame = cv2.cvtColor(frame,cv2.COLOR_RGB2BGR)
+            cv2.imwrite("frame-" + time.strftime("%d-%m-%Y-%H-%M-%S") + ".jpg",
+                        frame)
+
+    '''
+
+    def update(self):
+        # Get a frame from the video source
+       frame = self.vid.get_frame()
+
+
+       self.photo = PIL.ImageTk.PhotoImage(image = PIL.Image.fromarray(frame))
+       self.canvas.create_image(0, 0, image = self.photo, anchor = tkinter.NW)
+       self.window.after(self.delay, self.update)
+
+
+class Buka_Video:
+    def __init__(self, video_source=1):
+
+        # Open video source
+        self.vid = cv2.VideoStream(video_source).start()
+        time.sleep(2.0)
+        #if not self.vid.isOpened():
+        #    raise ValueError("Tak berjaya buka video")
+
+        # Get video width and height
+        self.width = self.vid.get(cv2.CAP_PROP_FRAME_WIDTH)
+        self.height = self.vid.get(cv2.CAP_PROP_FRAME_HEIGHT)
+
+
+
+    def get_frame(self):
+        if self.vid.isOpened():
+            frame = self.vid.read()
+            frame = cv2.cvtColor(frame,cv2.COLOR_BGR2RGB)
+
+
+    # Release the video source when object is destroyed
+
+    def __del__(self):
+        #if self.vid.isOpened():
+        #    self.vid.stop()
+        self.vid.stop()
+        #self.window.mainloop()
+
+
+# Create a window and pass it to the Application Object (Aplikasi)
+Aplikasi(tkinter.Tk(), "Buka Video")

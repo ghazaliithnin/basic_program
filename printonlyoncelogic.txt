@@ -1,0 +1,10 @@
+cf=0 # count fish
+pcf=0 # pcf = previous count fish
+
+While True:
+
+    ps = cf # ps = previous state
+    cs = ps  # cs = current state
+    if cs!= pcf:
+        print(cf)
+    pcf=cs

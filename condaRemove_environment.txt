@@ -1,0 +1,56 @@
+Microsoft Windows [Version 10.0.17763.615]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\WINDOWS\system32>conda info --envs
+# conda environments:
+#
+base                  *  C:\ProgramData\Anaconda3
+face                     C:\ProgramData\Anaconda3\envs\face
+
+
+C:\WINDOWS\system32>conda create --name face_adrian
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: C:\ProgramData\Anaconda3\envs\face_adrian
+
+
+
+Proceed ([y]/n)? y
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate face_adrian
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+
+C:\WINDOWS\system32>conda info --envs
+# conda environments:
+#
+base                  *  C:\ProgramData\Anaconda3
+face                     C:\ProgramData\Anaconda3\envs\face
+face_adrian              C:\ProgramData\Anaconda3\envs\face_adrian
+
+
+C:\WINDOWS\system32>conda env remove --name face_adrian
+
+Remove all packages in environment C:\ProgramData\Anaconda3\envs\face_adrian:
+
+
+C:\WINDOWS\system32>conda info --envs
+# conda environments:
+#
+base                  *  C:\ProgramData\Anaconda3
+face                     C:\ProgramData\Anaconda3\envs\face
+
+
+C:\WINDOWS\system32>

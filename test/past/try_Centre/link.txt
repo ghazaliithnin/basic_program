@@ -1,0 +1,7 @@
+https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_contours/py_contours_more_functions/py_contours_more_functions.html#contours-more-functions
+
+https://www.learnopencv.com/find-center-of-blob-centroid-using-opencv-cpp-python/
+
+https://www.learnopencv.com/shape-matching-using-hu-moments-c-python/
+
+https://docs.opencv.org/2.4.13.7/doc/tutorials/imgproc/shapedescriptors/moments/moments.html

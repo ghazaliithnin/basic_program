@@ -1,0 +1,17 @@
+https://stackoverflow.com/questions/25189554/countdown-clock-0105
+
+Apart from formatting your time as minutes and seconds, you'll need to print a carriage return. Set end to \r:
+
+import time
+
+def countdown(t):
+    while t:
+        mins, secs = divmod(t, 60)
+        timeformat = '{:02d}:{:02d}'.format(mins, secs)
+        print(timeformat, end='\r')
+        time.sleep(1)
+        t -= 1
+    print('Goodbye!\n\n\n\n\n')
+
+
+This ensures that the next print overwrites the last line printed

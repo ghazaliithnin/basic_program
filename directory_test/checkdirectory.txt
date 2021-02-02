@@ -1,0 +1,44 @@
+*** Python 3.8.2 (tags/v3.8.2:7b3ab59, Feb 25 2020, 22:45:29) [MSC v.1916 32 bit (Intel)] on win32. ***
+>>> 
+*** Remote Interpreter Reinitialized  ***
+>>> 
+*** Remote Interpreter Reinitialized  ***
+Jalan2
+>>> import os
+>>> getcwd
+Traceback (most recent call last):
+  File "<interactive input>", line 1, in <module>
+NameError: name 'getcwd' is not defined
+>>> os.getcwd
+<built-in function getcwd>
+>>> os.getcwd(0)
+Traceback (most recent call last):
+  File "<interactive input>", line 1, in <module>
+TypeError: getcwd() takes no arguments (1 given)
+>>> os.getcwd()
+'C:\\Users\\user\\Documents\\MDT'
+>>> os.chdir('\\basic_program')
+Traceback (most recent call last):
+  File "<interactive input>", line 1, in <module>
+FileNotFoundError: [WinError 2] The system cannot find the file specified: '\\basic_program'
+>>> os.chdir('\\basic_program')
+Traceback (most recent call last):
+  File "<interactive input>", line 1, in <module>
+FileNotFoundError: [WinError 2] The system cannot find the file specified: '\\basic_program'
+>>> os.chdir('basic_program')
+>>> os.getcwd()
+'C:\\Users\\user\\Documents\\MDT\\basic_program'
+>>> os.path.exists('..\\emailsetting.txt')
+True
+>>> os.path.exists('..\\emailsettin.txt')
+False
+>>> os.path.exists('..\\..\\radnom)
+  File "<interactive input>", line 1
+    os.path.exists('..\\..\\radnom)
+                                  ^
+SyntaxError: EOL while scanning string literal
+>>> os.path.exists('..\\..\\radnom')
+True
+>>> os.path.exists('..\\..\\radnom\guss')
+True
+>>> 

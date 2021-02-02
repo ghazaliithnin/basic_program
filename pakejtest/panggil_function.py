@@ -1,0 +1,3 @@
+import testb
+
+testb.testmodule()
