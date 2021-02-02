@@ -44,12 +44,18 @@ def display_video(vid,writer):
 def main():
     print("Running Main script")
     vids =[0,1]
-    writer = cv2.VideoWriter("recording_"".mp4", cv2.VideoWriter_fourcc(*'mp4v'), 25, (640, 480))
+    #writer = cv2.VideoWriter("recording_"".mp4", cv2.VideoWriter_fourcc(*'mp4v'), 25, (640, 480))
+    writer = None
     with concurrent.futures.ThreadPoolExecutor(max_workers=multiprocessing.cpu_count()) as executor:
         
         for vid in vids:
-            
-            executor.submit(display_video,vid,writer,)
+            if vid==vids[0]:
+                writer = cv2.VideoWriter("recording_in.mp4", cv2.VideoWriter_fourcc(*'mp4v'), 25, (640, 480))
+                executor.submit(display_video,vid,writer,)
+                
+            elif vid==vids[1]:
+                writer = cv2.VideoWriter("recording_out.mp4", cv2.VideoWriter_fourcc(*'mp4v'), 25, (640, 480))
+                executor.submit(display_video,vid,writer,)
         
             print("Running = ",vid)
 
