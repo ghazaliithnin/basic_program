@@ -9,22 +9,24 @@ import cv2
 import concurrent.futures
 import multiprocessing
 
-def display_video(vid):
+def display_video(vid,writer):
 
     print("wew")
     cap = cv2.VideoCapture(vid)
+    print(writer)
 
-    writer = cv2.VideoWriter("recording_"+vid+".mp4", cv2.VideoWriter_fourcc(*'mp4v'), 25, (640, 480))
+
 
     while True:
-        ret, frames = cap.read()
         
+        ret, frames = cap.read()
+        writer.write(frames)
         if ret is False:
             print("Video Finished")
             break
         
         cv2.imshow(str(cap),frames)
-        writer.write(frames)
+        
         #cv2.waitKey(30)
         key = cv2.waitKey(30)
         if key ==27:
@@ -32,22 +34,23 @@ def display_video(vid):
             cv2.destroyAllWindows()
             break
             
-
+    
     cap.release()
     writer.release()
     #cv2.destroyAllWindows()
-    return vid, frames
+    #return vid, frames
 
 
 def main():
     print("Running Main script")
     vids =[0,1]
-    
+    writer = cv2.VideoWriter("recording_"".mp4", cv2.VideoWriter_fourcc(*'mp4v'), 25, (640, 480))
     with concurrent.futures.ThreadPoolExecutor(max_workers=multiprocessing.cpu_count()) as executor:
-
+        
         for vid in vids:
-
-            executor.submit(display_video,vid)
+            
+            executor.submit(display_video,vid,writer,)
+        
             print("Running = ",vid)
 
 
