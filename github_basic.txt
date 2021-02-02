@@ -1,0 +1,347 @@
+ghazaliithnin
+
+Microsoft Windows [Version 10.0.18363.1316]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\user>cd C:\Users\user\Documents\MDT\basic_program
+
+C:\Users\user\Documents\MDT\basic_program>git init
+Initialized empty Git repository in C:/Users/user/Documents/MDT/basic_program/.git/
+
+C:\Users\user\Documents\MDT\basic_program>git remote add origin https://github.com/ghazaliithnin/basic_program.git
+
+C:\Users\user\Documents\MDT\basic_program>git remote -v
+origin  https://github.com/ghazaliithnin/basic_program.git (fetch)
+origin  https://github.com/ghazaliithnin/basic_program.git (push)
+
+C:\Users\user\Documents\MDT\basic_program>git add .
+warning: LF will be replaced by CRLF in copy_to_one_file.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in crop.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in draw_centre_circle_rectangle.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in drawn_circle_rectangle.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in fail/failedtorename.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in fail/rtsp_camera2.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in fail/rtsp_camera2pt2.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in motion_extractor.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in read_folder_files.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test/past/draw_box.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test/past/takjadi_getcentre.py.
+The file will have its original line endings in your working directory
+
+C:\Users\user\Documents\MDT\basic_program>git commit -m "Basic Program"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'user@DESKTOP-NKAF7N5.(none)')
+
+C:\Users\user\Documents\MDT\basic_program>git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/ghazaliithnin/basic_program.git'
+
+C:\Users\user\Documents\MDT\basic_program>git config --global user.email "ghazali6013@gmail.com"
+
+C:\Users\user\Documents\MDT\basic_program>git config --global user.name "ghazaliithnin"
+
+C:\Users\user\Documents\MDT\basic_program>git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/ghazaliithnin/basic_program.git'
+
+C:\Users\user\Documents\MDT\basic_program>git push origin main -force
+error: did you mean `--force` (with two dashes)?
+
+C:\Users\user\Documents\MDT\basic_program>git push origin main --force
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/ghazaliithnin/basic_program.git'
+
+C:\Users\user\Documents\MDT\basic_program>git push origin HEAD:main
+error: src refspec HEAD does not match any
+error: failed to push some refs to 'https://github.com/ghazaliithnin/basic_program.git'
+
+C:\Users\user\Documents\MDT\basic_program>git push origin HEAD:main --force
+error: src refspec HEAD does not match any
+error: failed to push some refs to 'https://github.com/ghazaliithnin/basic_program.git'
+
+C:\Users\user\Documents\MDT\basic_program>git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/ghazaliithnin/basic_program.git'
+
+C:\Users\user\Documents\MDT\basic_program>
+C:\Users\user\Documents\MDT\basic_program>git add --all
+
+C:\Users\user\Documents\MDT\basic_program>git commit -m "Basic program"
+[master (root-commit) fd29563] Basic program
+ 159 files changed, 3931 insertions(+)
+ create mode 100644 OOP_camera.py
+ create mode 100644 Output.txt
+ create mode 100644 PrintOnceOnly_29Apr19.py
+ create mode 100644 allvid_in_dir_face_extractor.py
+ create mode 100644 append_values_dictbasic.txt
+ create mode 100644 basic2.2_StreamVideo_No_OOP.py
+ create mode 100644 basic2_StreamVideo_OOP.py
+ create mode 100644 basic_createtxtfile.txt
+ create mode 100644 breaknoncv2.py
+ create mode 100644 bukaVideo.py
+ create mode 100644 cam_vid_multiprocess.py
+ create mode 100644 clone_environmentcommand.txt
+ create mode 100644 compile_all_csvfile.py
+ create mode 100644 condaRemove_environment.txt
+ create mode 100644 continue_rename.py
+ create mode 100644 copy_to_one_file.py
+ create mode 100644 create_individual_folder.py
+ create mode 100644 create_txt_file.py
+ create mode 100644 create_txt_name_and_assignIndex.py
+ create mode 100644 crop.py
+ create mode 100644 dev_multivid_face_extractor.py
+ create mode 100644 directory_test/checkdirectory.txt
+ create mode 100644 directory_test/test1.py
+ create mode 100644 directory_test/test2.py
+ create mode 100644 draw_centre_circle_rectangle.py
+ create mode 100644 drawn_circle_rectangle.py
+ create mode 100644 fail/congaktimer.py
+ create mode 100644 fail/congaktimer_seconds.py
+ create mode 100644 fail/congaktimer_seconds2.py
+ create mode 100644 fail/failedtorename.py
+ create mode 100644 fail/imutils_videoStream_OOP.py
+ create mode 100644 fail/rtsp_camera2.py
+ create mode 100644 fail/rtsp_camera2pt2.py
+ create mode 100644 glove_test1.jpg
+ create mode 100644 gloverotate.jpg
+ create mode 100644 html_test.html
+ create mode 100644 html_test_base64_img.html
+ create mode 100644 html_test_base64_img2.html
+ create mode 100644 make_andName_folder.py
+ create mode 100644 make_folder.py
+ create mode 100644 motion_extractor.py
+ create mode 100644 output.avi
+ create mode 100644 output2.mp4
+ create mode 100644 output3.mp4
+ create mode 100644 pakejtest/__pycache__/testb.cpython-38.pyc
+ create mode 100644 pakejtest/panggil_function.py
+ create mode 100644 pakejtest/testb.py
+ create mode 100644 past/rtsp_camerapast.py
+ create mode 100644 past/save_video_diffFourcc.py
+ create mode 100644 printonlyoncelogic.txt
+ create mode 100644 read_folder_files.py
+ create mode 100644 read_vid_function.py
+ create mode 100644 reconnect_rtsp.py
+ create mode 100644 record_allvid_in_dir.py
+ create mode 100644 record_multivid.py
+ create mode 100644 recording_output2.mp4
+ create mode 100644 recording_output3.mp4
+ create mode 100644 rename.py
+ create mode 100644 renamefile.py
+ create mode 100644 rotate.py
+ create mode 100644 rtsp_camera.py
+ create mode 100644 run_allvid_in_dir.py
+ create mode 100644 save_vid.py
+ create mode 100644 skipframes.py
+ create mode 100644 stopwatch.py
+ create mode 100644 streamVideo.py
+ create mode 100644 template_html_test_base64_img.html
+ create mode 100644 test.mp4
+ create mode 100644 test/basic_map1.py
+ create mode 100644 test/callfunction/fileA.py
+ create mode 100644 test/callfunction/functionB.py
+ create mode 100644 test/dev_save_vid_updated.py
+ create mode 100644 test/dev_vid_parallel/dev_multi_record.py
+ create mode 100644 test/dev_vid_parallel/test_args.py
+ create mode 100644 test/dev_vid_parallel/vid3.mp4
+ create mode 100644 test/exception_no_assertion_2cam.py
+ create mode 100644 test/manual_resetlog.py
+ create mode 100644 test/outt.txt
+ create mode 100644 test/past/draw_box.py
+ create mode 100644 test/past/takjadi_getcentre.py
+ create mode 100644 test/past/takjadi_try_yolo_annotate.py
+ create mode 100644 test/past/try_Centre/TryCentroidal.py
+ create mode 100644 test/past/try_Centre/TryCentroidal2.py
+ create mode 100644 test/past/try_Centre/b3.png
+ create mode 100644 test/past/try_Centre/circlewhite.png
+ create mode 100644 test/past/try_Centre/cw2.png
+ create mode 100644 test/past/try_Centre/cw3.png
+ create mode 100644 test/past/try_Centre/link.txt
+ create mode 100644 test/printer.py
+ create mode 100644 test/printonlyonce_usingtimer.txt
+ create mode 100644 test/random_uuid.py
+ create mode 100644 test/send_api_request_test.py
+ create mode 100644 test/seperatedate.py
+ create mode 100644 test/socketsend.py
+ create mode 100644 test/test_mostcommon.py
+ create mode 100644 test/try_printonnce_with2condition.py
+ create mode 100644 test/try_printonnce_with2condition2.py
+ create mode 100644 test/video_to_frames_folder.py
+ create mode 100644 test2_html_test_base64_img.html
+ create mode 100644 test_resolution_bgsub.py
+ create mode 100644 threading_basic/bekap/bekap1_dev_save_vid_process.py
+ create mode 100644 threading_basic/bekap/bekap1_dev_vid_process.py
+ create mode 100644 threading_basic/bekap/bekap2_dev_save_vid_process.py
+ create mode 100644 threading_basic/bekap/bekap2_vid_multiprocess.py
+ create mode 100644 threading_basic/bukaVideo.py
+ create mode 100644 threading_basic/cam_vid_multiprocess.py
+ create mode 100644 threading_basic/dev_save_vid_process.py
+ create mode 100644 threading_basic/dev_save_vid_threading.py
+ create mode 100644 threading_basic/download_images.py
+ create mode 100644 threading_basic/multiprocess_basic.py
+ create mode 100644 threading_basic/multiprocess_basic2.py
+ create mode 100644 threading_basic/multiprocess_basic3.py
+ create mode 100644 threading_basic/multiprocess_basic4.py
+ create mode 100644 threading_basic/multiprocess_basic5.py
+ create mode 100644 threading_basic/multiprocess_image.py
+ create mode 100644 threading_basic/out_1.mp4
+ create mode 100644 threading_basic/out_2.mp4
+ create mode 100644 threading_basic/output2.mp4
+ create mode 100644 threading_basic/output3.mp4
+ create mode 100644 threading_basic/photo-1493976040374-85c8e12f0c0e.jpg
+ create mode 100644 threading_basic/photo-1504198453319-5ce911bafcde.jpg
+ create mode 100644 threading_basic/photo-1507143550189-fed454f93097.jpg
+ create mode 100644 threading_basic/photo-1513938709626-033611b8cc03.jpg
+ create mode 100644 threading_basic/photo-1516117172878-fd2c41f4a759.jpg
+ create mode 100644 threading_basic/photo-1516972810927-80185027ca84.jpg
+ create mode 100644 threading_basic/photo-1522364723953-452d3431c267.jpg
+ create mode 100644 threading_basic/photo-1524429656589-6633a470097c.jpg
+ create mode 100644 threading_basic/photo-1530122037265-a5f1f91d3b99.jpg
+ create mode 100644 threading_basic/photo-1530224264768-7ff8c1789d79.jpg
+ create mode 100644 threading_basic/photo-1532009324734-20a7a5813719.jpg
+ create mode 100644 threading_basic/photo-1541698444083-023c97d3f4b6.jpg
+ create mode 100644 threading_basic/photo-1549692520-acc6669e2f0c.jpg
+ create mode 100644 threading_basic/photo-1550439062-609e1531270e.jpg
+ create mode 100644 threading_basic/photo-1564135624576-c5c88640f235.jpg
+ create mode 100644 threading_basic/process_image.py
+ create mode 100644 threading_basic/processed/photo-1493976040374-85c8e12f0c0e.jpg
+ create mode 100644 threading_basic/processed/photo-1504198453319-5ce911bafcde.jpg
+ create mode 100644 threading_basic/processed/photo-1507143550189-fed454f93097.jpg
+ create mode 100644 threading_basic/processed/photo-1513938709626-033611b8cc03.jpg
+ create mode 100644 threading_basic/processed/photo-1516117172878-fd2c41f4a759.jpg
+ create mode 100644 threading_basic/processed/photo-1516972810927-80185027ca84.jpg
+ create mode 100644 threading_basic/processed/photo-1522364723953-452d3431c267.jpg
+ create mode 100644 threading_basic/processed/photo-1524429656589-6633a470097c.jpg
+ create mode 100644 threading_basic/processed/photo-1530122037265-a5f1f91d3b99.jpg
+ create mode 100644 threading_basic/processed/photo-1530224264768-7ff8c1789d79.jpg
+ create mode 100644 threading_basic/processed/photo-1532009324734-20a7a5813719.jpg
+ create mode 100644 threading_basic/processed/photo-1541698444083-023c97d3f4b6.jpg
+ create mode 100644 threading_basic/processed/photo-1549692520-acc6669e2f0c.jpg
+ create mode 100644 threading_basic/processed/photo-1550439062-609e1531270e.jpg
+ create mode 100644 threading_basic/processed/photo-1564135624576-c5c88640f235.jpg
+ create mode 100644 threading_basic/read_vid_function.py
+ create mode 100644 threading_basic/record_multivid.py
+ create mode 100644 threading_basic/test2.py
+ create mode 100644 threading_basic/threading_basic1.py
+ create mode 100644 threading_basic/threading_download_images.py
+ create mode 100644 timeevery10seconds.py
+ create mode 100644 uninstallpackage.txt
+ create mode 100644 video_to_frames.py
+ create mode 100644 video_to_frames_folder.py
+
+C:\Users\user\Documents\MDT\basic_program>git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/ghazaliithnin/basic_program.git'
+
+C:\Users\user\Documents\MDT\basic_program>git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/ghazaliithnin/basic_program.git'
+
+C:\Users\user\Documents\MDT\basic_program>git push -u origin main --force
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/ghazaliithnin/basic_program.git'
+
+C:\Users\user\Documents\MDT\basic_program>git push -u origin master
+fatal: helper error (-1): authentication prompt was canceled
+Username for 'https://github.com': ghazaliithnin
+Password for 'https://ghazaliithnin@github.com':
+Enumerating objects: 163, done.
+Counting objects: 100% (163/163), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (153/153), done.
+Writing objects: 100% (163/163), 169.10 MiB | 3.28 MiB/s, done.
+Total 163 (delta 16), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (16/16), done.
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/ghazaliithnin/basic_program/pull/new/master
+remote:
+To https://github.com/ghazaliithnin/basic_program.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Users\user\Documents\MDT\basic_program>git add --all
+
+C:\Users\user\Documents\MDT\basic_program>git commit -m "Test"
+[master d002fd1] Test
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+C:\Users\user\Documents\MDT\basic_program>git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 313 bytes | 313.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ghazaliithnin/basic_program.git
+   fd29563..d002fd1  master -> master
+
+C:\Users\user\Documents\MDT\basic_program>git add --all
+
+C:\Users\user\Documents\MDT\basic_program>git commit -m "2nd"
+[master 7600903] 2nd
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\user\Documents\MDT\basic_program>git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 310 bytes | 310.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ghazaliithnin/basic_program.git
+   d002fd1..7600903  master -> master
+
+C:\Users\user\Documents\MDT\basic_program>git pull origin master
+From https://github.com/ghazaliithnin/basic_program
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+C:\Users\user\Documents\MDT\basic_program>git add --all
+
+C:\Users\user\Documents\MDT\basic_program>git comit -m "3rd"
+git: 'comit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+C:\Users\user\Documents\MDT\basic_program>git commit -m "3rd"
+[master d085406] 3rd
+ 1 file changed, 19 deletions(-)
+ delete mode 100644 bukaVideo.py
+
+C:\Users\user\Documents\MDT\basic_program>git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 221 bytes | 221.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/ghazaliithnin/basic_program.git
+   7600903..d085406  master -> master
+
+C:\Users\user\Documents\MDT\basic_program>
