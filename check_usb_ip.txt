@@ -1,0 +1,25 @@
+############
+check ip for connected USB using Windows PowerShell
+#####
+
+
+PS C:\Users\user> Get-WmiObject -Class Win32_NetworkAdapterConfiguration -Filter IPEnabled=TRUE
+
+################
+this will return
+################
+DHCPEnabled      : True
+IPAddress        : {192.168.1.134, fe80::5952:149f:2d43:322f}
+DefaultIPGateway : {192.168.1.1}
+DNSDomain        :
+ServiceName      : Netwtw08
+Description      : Intel(R) Wireless-AC 9560 160MHz
+Index            : 1
+
+DHCPEnabled      : True
+IPAddress        : {192.168.55.100, fe80::dc13:1fd6:7b4c:4740}
+DefaultIPGateway :
+DNSDomain        :
+ServiceName      : usbrndis6
+Description      : Remote NDIS Compatible Device
+Index            : 14

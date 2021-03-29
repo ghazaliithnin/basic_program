@@ -1,0 +1,493 @@
+Microsoft Windows [Version 10.0.18363.1316]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\user>cd C:\Users\user\Documents\boingtech_no_gui
+
+C:\Users\user\Documents\boingtech_no_gui>git log
+commit 242ff40bdffb4db8a251cdb7dc9318869237aad4 (HEAD -> master)
+Author: ghazaliithnin <ghazali6013@gmail.com>
+Date:   Mon Feb 8 17:34:23 2021 +0800
+
+    Successfully connect database
+
+commit 3efbd0e1b79e10031e05ff5e02cff763159e9f99
+Author: ghazaliithnin <ghazali6013@gmail.com>
+Date:   Mon Feb 8 17:32:12 2021 +0800
+
+    Successfully connect database
+
+Author: ghazaliithnin <ghazali6013@gmail.com>
+Date:   Mon Feb 8 10:17:32 2021 +0800
+
+    moved simulation in/out from aiserver
+
+commit 3993615c08eb1ba6f123e07f40bfab120218a5e3
+Author: ghazaliithnin <ghazali6013@gmail.com>
+Date:   Wed Feb 3 15:14:26 2021 +0800
+
+    test ipynb commit
+
+commit 2f3b47a2323183231a236c17da367073672c6a66
+Merge: ba28e95 cf5d74e
+Author: ghazaliithnin <ghazali6013@gmail.com>
+Date:   Wed Feb 3 11:41:19 2021 +0800
+
+    Merge branch 'master' of https://github.com/ghazaliithnin/boingtech_fr
+
+commit ba28e95712182084bac84137fe2f0c73e70c8800
+Author: ghazaliithnin <ghazali6013@gmail.com>
+Date:   Wed Feb 3 11:37:06 2021 +0800
+
+    First boingtech fr commit
+
+commit cf5d74ef35ee378896c505b2863f2980ab4a4165
+Author: ghazaliithnin <78394231+ghazaliithnin@users.noreply.github.com>
+Date:   Wed Feb 3 11:34:09 2021 +0800
+
+    Initial commit
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+
+C:\Users\user\Documents\boingtech_no_gui>git log -3 --pretty=format:"%h"
+242ff40
+3efbd0e
+a2ccf0e
+
+C:\Users\user\Documents\boingtech_no_gui>git rev-parse HEAD
+242ff40bdffb4db8a251cdb7dc9318869237aad4
+
+C:\Users\user\Documents\boingtech_no_gui>git rev-parse --verify HEAD
+242ff40bdffb4db8a251cdb7dc9318869237aad4
+
+C:\Users\user\Documents\boingtech_no_gui>git rev-parse --short HEAD
+242ff40
+
+C:\Users\user\Documents\boingtech_no_gui>git rev-parse --short HEAD
+242ff40
+
+C:\Users\user\Documents\boingtech_no_gui>git log
+commit 3efbd0e1b79e10031e05ff5e02cff763159e9f99 (HEAD -> master)
+Author: ghazaliithnin <ghazali6013@gmail.com>
+Date:   Mon Feb 8 17:32:12 2021 +0800
+
+    Successfully connect database
+
+commit a2ccf0e6a655646c74108362d4596708f4d1dd0b (origin/master)
+Author: ghazaliithnin <ghazali6013@gmail.com>
+Date:   Mon Feb 8 10:17:32 2021 +0800
+
+    moved simulation in/out from aiserver
+
+commit 3993615c08eb1ba6f123e07f40bfab120218a5e3
+Author: ghazaliithnin <ghazali6013@gmail.com>
+Date:   Wed Feb 3 15:14:26 2021 +0800
+
+    test ipynb commit
+
+commit 2f3b47a2323183231a236c17da367073672c6a66
+Merge: ba28e95 cf5d74e
+Author: ghazaliithnin <ghazali6013@gmail.com>
+Date:   Wed Feb 3 11:41:19 2021 +0800
+
+    Merge branch 'master' of https://github.com/ghazaliithnin/boingtech_fr
+
+commit ba28e95712182084bac84137fe2f0c73e70c8800
+Author: ghazaliithnin <ghazali6013@gmail.com>
+Date:   Wed Feb 3 11:37:06 2021 +0800
+
+    First boingtech fr commit
+
+commit cf5d74ef35ee378896c505b2863f2980ab4a4165
+Author: ghazaliithnin <78394231+ghazaliithnin@users.noreply.github.com>
+Date:   Wed Feb 3 11:34:09 2021 +0800
+
+    Initial commit
+
+C:\Users\user\Documents\boingtech_no_gui>git log -3 --pretty=format:"%h"
+3efbd0e
+a2ccf0e
+3993615
+
+C:\Users\user\Documents\boingtech_no_gui>git log
+commit a2ccf0e6a655646c74108362d4596708f4d1dd0b (HEAD -> master, origin/master)
+Author: ghazaliithnin <ghazali6013@gmail.com>
+Date:   Mon Feb 8 10:17:32 2021 +0800
+
+    moved simulation in/out from aiserver
+
+commit 3993615c08eb1ba6f123e07f40bfab120218a5e3
+Author: ghazaliithnin <ghazali6013@gmail.com>
+Date:   Wed Feb 3 15:14:26 2021 +0800
+
+    test ipynb commit
+
+commit 2f3b47a2323183231a236c17da367073672c6a66
+Merge: ba28e95 cf5d74e
+Author: ghazaliithnin <ghazali6013@gmail.com>
+Date:   Wed Feb 3 11:41:19 2021 +0800
+
+    Merge branch 'master' of https://github.com/ghazaliithnin/boingtech_fr
+
+commit ba28e95712182084bac84137fe2f0c73e70c8800
+Author: ghazaliithnin <ghazali6013@gmail.com>
+Date:   Wed Feb 3 11:37:06 2021 +0800
+
+    First boingtech fr commit
+
+commit cf5d74ef35ee378896c505b2863f2980ab4a4165
+Author: ghazaliithnin <78394231+ghazaliithnin@users.noreply.github.com>
+Date:   Wed Feb 3 11:34:09 2021 +0800
+
+    Initial commit
+
+C:\Users\user\Documents\boingtech_no_gui>
+
+#############################################
+#############################################
+
+Microsoft Windows [Version 10.0.18363.1316]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\user>cd C:\Users\user\Documents\boingtech_no_gui
+
+C:\Users\user\Documents\boingtech_no_gui>git rebase -i 242ff40bdffb4db8a251cdb7dc9318869237aad4
+error: cannot rebase: You have unstaged changes.
+error: Please commit or stash them.
+
+C:\Users\user\Documents\boingtech_no_gui>git rebase -i 3efbd0e1b79e10031e05ff5e02cff763159e9f99
+error: cannot rebase: You have unstaged changes.
+error: Please commit or stash them.
+
+C:\Users\user\Documents\boingtech_no_gui>git rebase -i 242ff40
+error: cannot rebase: You have unstaged changes.
+error: Please commit or stash them.
+
+C:\Users\user\Documents\boingtech_no_gui>git rm --cached check/in1.avi
+fatal: pathspec 'check/in1.avi' did not match any files
+
+C:\Users\user\Documents\boingtech_no_gui>git rm --cached recog/check/in1.avi
+fatal: pathspec 'recog/check/in1.avi' did not match any files
+
+C:\Users\user\Documents\boingtech_no_gui>git rm --cached recog\check\in1.avi
+fatal: pathspec 'recog\check\in1.avi' did not match any files
+
+C:\Users\user\Documents\boingtech_no_gui>git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   gui/data/log/data_in.csv
+        modified:   gui/data/log/data_in_filtered.csv
+        modified:   gui/data/log/data_out.csv
+        modified:   gui/data/log/data_out_filtered.csv
+        deleted:    recog/.ipynb_checkpoints/Untitled-checkpoint.ipynb
+        modified:   recog/.ipynb_checkpoints/dev_json_clockinout-checkpoint.ipynb
+        modified:   recog/.ipynb_checkpoints/dev_json_nb-checkpoint.ipynb
+        deleted:    recog/Untitled.ipynb
+        modified:   recog/check/dev_senddict_atd.json
+        modified:   recog/dev_add_encode.ipynb
+        modified:   recog/dev_json_clockinout.ipynb
+        modified:   recog/dev_json_nb.ipynb
+        deleted:    recog/dev_simulation_clockinout.py
+        deleted:    recog/dev_simulation_json_clockinout.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        recog/.ipynb_checkpoints/check_encoding-checkpoint.ipynb
+        recog/.ipynb_checkpoints/dev_add_encode-checkpoint.ipynb
+        recog/__pycache__/dev_simulation_json_clockinout.cpython-36.pyc
+        recog/__pycache__/testfunc_sendapi.cpython-36.pyc
+        recog/bekap/bekap5_dev_simulation_json_clockinout.py
+        recog/bekap/bekap6_simulation_json_clockinout.py
+        recog/check/in1.avi
+        recog/check/out3.avi
+        recog/check_encoding.ipynb
+        recog/from_boingtech/boingtech_fr_v9_fbt.py
+        recog/from_boingtech/csvcD11_11/
+        recog/from_boingtech/enc_d11_11.pickle
+        recog/simulation_json_clockinout.py
+        recog/testfunc_sendapi.py
+        recog/to_upload_at_boingtech/dev_boingtech_fr_v10.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\user\Documents\boingtech_no_gui>git rm --cached recog/check/in1.avi
+fatal: pathspec 'recog/check/in1.avi' did not match any files
+
+C:\Users\user\Documents\boingtech_no_gui>git rebase -i 3efbd0e
+error: cannot rebase: You have unstaged changes.
+error: Please commit or stash them.
+
+C:\Users\user\Documents\boingtech_no_gui>git rebase -i a2ccf0e
+error: cannot rebase: You have unstaged changes.
+error: Please commit or stash them.
+
+C:\Users\user\Documents\boingtech_no_gui>git rebase -i 3efbd0e
+error: cannot rebase: You have unstaged changes.
+error: Please commit or stash them.
+
+C:\Users\user\Documents\boingtech_no_gui>git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   gui/data/log/data_in.csv
+        modified:   gui/data/log/data_in_filtered.csv
+        modified:   gui/data/log/data_out.csv
+        modified:   gui/data/log/data_out_filtered.csv
+        deleted:    recog/.ipynb_checkpoints/Untitled-checkpoint.ipynb
+        modified:   recog/.ipynb_checkpoints/dev_json_clockinout-checkpoint.ipynb
+        modified:   recog/.ipynb_checkpoints/dev_json_nb-checkpoint.ipynb
+        deleted:    recog/Untitled.ipynb
+        modified:   recog/check/dev_senddict_atd.json
+        modified:   recog/dev_add_encode.ipynb
+        modified:   recog/dev_json_clockinout.ipynb
+        modified:   recog/dev_json_nb.ipynb
+        deleted:    recog/dev_simulation_clockinout.py
+        deleted:    recog/dev_simulation_json_clockinout.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        recog/.ipynb_checkpoints/check_encoding-checkpoint.ipynb
+        recog/.ipynb_checkpoints/dev_add_encode-checkpoint.ipynb
+        recog/__pycache__/dev_simulation_json_clockinout.cpython-36.pyc
+        recog/__pycache__/testfunc_sendapi.cpython-36.pyc
+        recog/bekap/bekap5_dev_simulation_json_clockinout.py
+        recog/bekap/bekap6_simulation_json_clockinout.py
+        recog/check/in1.avi
+        recog/check/out3.avi
+        recog/check_encoding.ipynb
+        recog/from_boingtech/boingtech_fr_v9_fbt.py
+        recog/from_boingtech/csvcD11_11/
+        recog/from_boingtech/enc_d11_11.pickle
+        recog/simulation_json_clockinout.py
+        recog/testfunc_sendapi.py
+        recog/to_upload_at_boingtech/dev_boingtech_fr_v10.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\user\Documents\boingtech_no_gui>git pull --rebase --autostash
+warning: LF will be replaced by CRLF in recog/.ipynb_checkpoints/dev_json_clockinout-checkpoint.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in recog/.ipynb_checkpoints/dev_json_nb-checkpoint.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in recog/dev_add_encode.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in recog/dev_json_clockinout.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in recog/dev_json_nb.ipynb.
+The file will have its original line endings in your working directory
+Created autostash: f9b3188
+Current branch master is up to date.
+Applied autostash.
+
+C:\Users\user\Documents\boingtech_no_gui>git rebase -i 3efbd0e
+error: cannot rebase: You have unstaged changes.
+error: Please commit or stash them.
+
+C:\Users\user\Documents\boingtech_no_gui>git stash list
+
+C:\Users\user\Documents\boingtech_no_gui>git stash show
+No stash entries found.
+
+C:\Users\user\Documents\boingtech_no_gui>git_status
+'git_status' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\user\Documents\boingtech_no_gui>git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   gui/data/log/data_in.csv
+        modified:   gui/data/log/data_in_filtered.csv
+        modified:   gui/data/log/data_out.csv
+        modified:   gui/data/log/data_out_filtered.csv
+        deleted:    recog/.ipynb_checkpoints/Untitled-checkpoint.ipynb
+        modified:   recog/.ipynb_checkpoints/dev_json_clockinout-checkpoint.ipynb
+        modified:   recog/.ipynb_checkpoints/dev_json_nb-checkpoint.ipynb
+        deleted:    recog/Untitled.ipynb
+        modified:   recog/check/dev_senddict_atd.json
+        modified:   recog/dev_add_encode.ipynb
+        modified:   recog/dev_json_clockinout.ipynb
+        modified:   recog/dev_json_nb.ipynb
+        deleted:    recog/dev_simulation_clockinout.py
+        deleted:    recog/dev_simulation_json_clockinout.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        recog/.ipynb_checkpoints/check_encoding-checkpoint.ipynb
+        recog/.ipynb_checkpoints/dev_add_encode-checkpoint.ipynb
+        recog/__pycache__/dev_simulation_json_clockinout.cpython-36.pyc
+        recog/__pycache__/testfunc_sendapi.cpython-36.pyc
+        recog/bekap/bekap5_dev_simulation_json_clockinout.py
+        recog/bekap/bekap6_simulation_json_clockinout.py
+        recog/check/in1.avi
+        recog/check/out3.avi
+        recog/check_encoding.ipynb
+        recog/from_boingtech/boingtech_fr_v9_fbt.py
+        recog/from_boingtech/csvcD11_11/
+        recog/from_boingtech/enc_d11_11.pickle
+        recog/simulation_json_clockinout.py
+        recog/testfunc_sendapi.py
+        recog/to_upload_at_boingtech/dev_boingtech_fr_v10.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\user\Documents\boingtech_no_gui>git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   gui/data/log/data_in.csv
+        modified:   gui/data/log/data_in_filtered.csv
+        modified:   gui/data/log/data_out.csv
+        modified:   gui/data/log/data_out_filtered.csv
+        deleted:    recog/.ipynb_checkpoints/Untitled-checkpoint.ipynb
+        modified:   recog/.ipynb_checkpoints/dev_json_clockinout-checkpoint.ipynb
+        modified:   recog/.ipynb_checkpoints/dev_json_nb-checkpoint.ipynb
+        deleted:    recog/Untitled.ipynb
+        modified:   recog/check/dev_senddict_atd.json
+        modified:   recog/dev_add_encode.ipynb
+        modified:   recog/dev_json_clockinout.ipynb
+        modified:   recog/dev_json_nb.ipynb
+        deleted:    recog/dev_simulation_clockinout.py
+        deleted:    recog/dev_simulation_json_clockinout.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        recog/.ipynb_checkpoints/check_encoding-checkpoint.ipynb
+        recog/.ipynb_checkpoints/dev_add_encode-checkpoint.ipynb
+        recog/__pycache__/dev_simulation_json_clockinout.cpython-36.pyc
+        recog/__pycache__/testfunc_sendapi.cpython-36.pyc
+        recog/bekap/bekap5_dev_simulation_json_clockinout.py
+        recog/bekap/bekap6_simulation_json_clockinout.py
+        recog/check_encoding.ipynb
+        recog/from_boingtech/boingtech_fr_v9_fbt.py
+        recog/from_boingtech/csvcD11_11/
+        recog/from_boingtech/enc_d11_11.pickle
+        recog/simulation_json_clockinout.py
+        recog/testfunc_sendapi.py
+        recog/to_upload_at_boingtech/dev_boingtech_fr_v10.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\user\Documents\boingtech_no_gui>git rebase
+error: cannot rebase: You have unstaged changes.
+error: Please commit or stash them.
+
+C:\Users\user\Documents\boingtech_no_gui>git rebase
+error: cannot rebase: You have unstaged changes.
+error: Please commit or stash them.
+
+C:\Users\user\Documents\boingtech_no_gui>git rebase -i HEAD~1
+error: cannot rebase: You have unstaged changes.
+error: Please commit or stash them.
+
+C:\Users\user\Documents\boingtech_no_gui>git reset HEAD~
+Unstaged changes after reset:
+M       gui/data/log/data_in.csv
+M       gui/data/log/data_in_filtered.csv
+M       gui/data/log/data_out.csv
+M       gui/data/log/data_out_filtered.csv
+D       recog/.ipynb_checkpoints/Untitled-checkpoint.ipynb
+M       recog/.ipynb_checkpoints/dev_json_clockinout-checkpoint.ipynb
+M       recog/.ipynb_checkpoints/dev_json_nb-checkpoint.ipynb
+D       recog/Untitled.ipynb
+M       recog/check/dev_senddict_atd.json
+D       recog/check/in1.avi
+D       recog/check/out3.avi
+M       recog/dev_add_encode.ipynb
+M       recog/dev_json_clockinout.ipynb
+M       recog/dev_json_nb.ipynb
+D       recog/dev_simulation_clockinout.py
+D       recog/dev_simulation_json_clockinout.py
+
+C:\Users\user\Documents\boingtech_no_gui>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   gui/data/log/data_in.csv
+        modified:   gui/data/log/data_in_filtered.csv
+        modified:   gui/data/log/data_out.csv
+        modified:   gui/data/log/data_out_filtered.csv
+        deleted:    recog/.ipynb_checkpoints/Untitled-checkpoint.ipynb
+        modified:   recog/.ipynb_checkpoints/dev_json_clockinout-checkpoint.ipynb
+        modified:   recog/.ipynb_checkpoints/dev_json_nb-checkpoint.ipynb
+        deleted:    recog/Untitled.ipynb
+        modified:   recog/check/dev_senddict_atd.json
+        deleted:    recog/check/in1.avi
+        deleted:    recog/check/out3.avi
+        modified:   recog/dev_add_encode.ipynb
+        modified:   recog/dev_json_clockinout.ipynb
+        modified:   recog/dev_json_nb.ipynb
+        deleted:    recog/dev_simulation_clockinout.py
+        deleted:    recog/dev_simulation_json_clockinout.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        recog/.ipynb_checkpoints/check_encoding-checkpoint.ipynb
+        recog/.ipynb_checkpoints/dev_add_encode-checkpoint.ipynb
+        recog/__pycache__/dev_simulation_json_clockinout.cpython-36.pyc
+        recog/__pycache__/testfunc_sendapi.cpython-36.pyc
+        recog/bekap/bekap5_dev_simulation_json_clockinout.py
+        recog/bekap/bekap6_simulation_json_clockinout.py
+        recog/check_encoding.ipynb
+        recog/from_boingtech/boingtech_fr_v9_fbt.py
+        recog/from_boingtech/csvcD11_11/
+        recog/from_boingtech/enc_d11_11.pickle
+        recog/simulation_json_clockinout.py
+        recog/testfunc_sendapi.py
+        recog/to_upload_at_boingtech/dev_boingtech_fr_v10.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\user\Documents\boingtech_no_gui>git reset HEAD~
+Unstaged changes after reset:
+M       gui/data/log/data_in.csv
+M       gui/data/log/data_in_filtered.csv
+M       gui/data/log/data_out.csv
+M       gui/data/log/data_out_filtered.csv
+D       recog/.ipynb_checkpoints/Untitled-checkpoint.ipynb
+M       recog/.ipynb_checkpoints/dev_dict_clockinout-checkpoint.ipynb
+M       recog/.ipynb_checkpoints/dev_dict_clockinout2-checkpoint.ipynb
+M       recog/.ipynb_checkpoints/dev_get_api-checkpoint.ipynb
+M       recog/.ipynb_checkpoints/dev_json_clockinout-checkpoint.ipynb
+M       recog/.ipynb_checkpoints/dev_json_nb-checkpoint.ipynb
+D       recog/Untitled.ipynb
+M       recog/check/dev_senddict_atd.json
+M       recog/dev_add_encode.ipynb
+M       recog/dev_dict_clockinout.ipynb
+M       recog/dev_dict_clockinout2.ipynb
+M       recog/dev_get_api.ipynb
+M       recog/dev_json_clockinout.ipynb
+M       recog/dev_json_nb.ipynb
+D       recog/dev_simulation_clockinout.py
+M       recog/image_json_nb.ipynb
+
+C:\Users\user\Documents\boingtech_no_gui>

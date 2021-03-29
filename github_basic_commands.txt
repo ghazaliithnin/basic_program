@@ -1,0 +1,38 @@
+ add# First repo and commit
+#####################
+
+C:\Users\user>cd C:\Users\user\Documents\boingtech_no_gui
+
+C:\Users\user\Documents\boingtech_no_gui>git init
+
+C:\Users\user\Documents\boingtech_no_gui>git remote add origin https://github.com/ghazaliithnin/boingtech_fr.git
+
+C:\Users\user\Documents\boingtech_no_gui>git remote -v
+
+C:\Users\user\Documents\boingtech_no_gui>git add .
+
+C:\Users\user\Documents\boingtech_no_gui>git add --all
+
+
+C:\Users\user\Documents\boingtech_no_gui>git commit -m "First boingtech fr commit"
+
+C:\Users\user\Documents\boingtech_no_gui>git pull origin master --allow-unrelated-histories
+
+C:\Users\user\Documents\boingtech_no_gui>git push -u origin master
+
+# update new commit
+
+> git add --all
+
+// Check what items added before commit
+// if file too big, will have errors and cause commit to hang, like kena ban
+> git status
+
+// remove unwanted file from new commit, use this to removed big files
+> git restore --staged <file>
+
+> git commit -m "new commit"
+
+> git push origin master
+
+

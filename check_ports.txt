@@ -1,0 +1,11 @@
+https://www.programmersought.com/article/48624978462/
+
+# check specific port
+Netstat -ano|findstr <port number>
+
+example:
+Netstat -ano|findstr 8080
+#############
+
+# check all ports
+Netstat -ano

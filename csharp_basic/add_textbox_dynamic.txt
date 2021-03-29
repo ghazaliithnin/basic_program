@@ -1,0 +1,31 @@
+
+
+
+private void btnAdd_Click(object sender, EventArgs e)
+{
+    //Create the dynamic TextBox.
+    TextBox textbox = new TextBox();
+    int count = panel1.Controls.OfType<TextBox>().ToList().Count;
+    textbox.Location = new System.Drawing.Point(10, 25 * count);
+    textbox.Size = new System.Drawing.Size(80, 20);
+    textbox.Name = "txt_" + (count + 1);
+    panel1.Controls.Add(textbox);
+ 
+    //Create the dynamic Button to remove the TextBox.
+    Button button = new Button();
+    button.Location = new System.Drawing.Point(95, 25 * count);
+    button.Size = new System.Drawing.Size(60, 20);
+    button.Name = "btnDelete_" + (count + 1);
+    button.Text = "Delete";
+    button.Click += new System.EventHandler(this.btnDelete_Click);
+    panel1.Controls.Add(button);
+}
+
+
+
+
+
+########################################
+###
+
+https://www.aspsnippets.com/Articles/Dynamically-Add-Remove-TextBox-in-Windows-Forms-Application-using-C-and-VBNet.aspx

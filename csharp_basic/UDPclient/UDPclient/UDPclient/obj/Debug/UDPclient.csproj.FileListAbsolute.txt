@@ -1,0 +1,25 @@
+C:\Users\yyuso\Documents\SharpDevelop Projects\UDPclient\UDPclient\obj\Debug\UDPclient.csprojResolveAssemblyReference.cache
+C:\Users\yyuso\Documents\SharpDevelop Projects\UDPclient\UDPclient\obj\Debug\UDPclient.MainForm.resources
+C:\Users\yyuso\Documents\SharpDevelop Projects\UDPclient\UDPclient\obj\Debug\UDPclient.csproj.GenerateResource.Cache
+C:\Users\yyuso\Documents\SharpDevelop Projects\UDPclient\UDPclient\bin\Debug\UDPclient.exe.config
+C:\Users\yyuso\Documents\SharpDevelop Projects\UDPclient\UDPclient\bin\Debug\UDPclient.exe
+C:\Users\yyuso\Documents\SharpDevelop Projects\UDPclient\UDPclient\bin\Debug\UDPclient.pdb
+C:\Users\yyuso\Documents\SharpDevelop Projects\UDPclient\UDPclient\obj\Debug\UDPclient.exe
+C:\Users\yyuso\Documents\SharpDevelop Projects\UDPclient\UDPclient\obj\Debug\UDPclient.pdb
+C:\Users\Dell\Documents\MFI\Sem4\e\MiniProjek\Server\UDPclient\UDPclient\UDPclient\bin\Debug\UDPclient.exe.config
+C:\Users\Dell\Documents\MFI\Sem4\e\MiniProjek\Server\UDPclient\UDPclient\UDPclient\obj\Debug\UDPclient.exe
+C:\Users\Dell\Documents\MFI\Sem4\e\MiniProjek\Server\UDPclient\UDPclient\UDPclient\obj\Debug\UDPclient.pdb
+C:\Users\Dell\Documents\MFI\Sem4\e\MiniProjek\Server\UDPclient\UDPclient\UDPclient\bin\Debug\UDPclient.exe
+C:\Users\Dell\Documents\MFI\Sem4\e\MiniProjek\Server\UDPclient\UDPclient\UDPclient\bin\Debug\UDPclient.pdb
+C:\Users\Dell\Documents\MFI\Sem4\e\MiniProjek\Server\UDPclient\UDPclient\UDPclient\obj\Debug\UDPclient.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Documents\MFI\Sem4\e\MiniProjek\Server\UDPclient\UDPclient\UDPclient\obj\Debug\UDPclient.MainForm.resources
+C:\Users\Dell\Documents\MFI\Sem4\e\MiniProjek\Server\UDPclient\UDPclient\UDPclient\obj\Debug\UDPclient.csproj.GenerateResource.Cache
+C:\Users\user\Documents\MDT\basic_program\csharp_basic\UDPclient\UDPclient\UDPclient\bin\Debug\UDPclient.exe.config
+C:\Users\user\Documents\MDT\basic_program\csharp_basic\UDPclient\UDPclient\UDPclient\bin\Debug\UDPclient.exe
+C:\Users\user\Documents\MDT\basic_program\csharp_basic\UDPclient\UDPclient\UDPclient\bin\Debug\UDPclient.pdb
+C:\Users\user\Documents\MDT\basic_program\csharp_basic\UDPclient\UDPclient\UDPclient\obj\Debug\UDPclient.csprojAssemblyReference.cache
+C:\Users\user\Documents\MDT\basic_program\csharp_basic\UDPclient\UDPclient\UDPclient\obj\Debug\UDPclient.MainForm.resources
+C:\Users\user\Documents\MDT\basic_program\csharp_basic\UDPclient\UDPclient\UDPclient\obj\Debug\UDPclient.csproj.GenerateResource.cache
+C:\Users\user\Documents\MDT\basic_program\csharp_basic\UDPclient\UDPclient\UDPclient\obj\Debug\UDPclient.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\MDT\basic_program\csharp_basic\UDPclient\UDPclient\UDPclient\obj\Debug\UDPclient.exe
+C:\Users\user\Documents\MDT\basic_program\csharp_basic\UDPclient\UDPclient\UDPclient\obj\Debug\UDPclient.pdb

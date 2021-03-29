@@ -1,0 +1,8 @@
+C:\Users\yyuso\Documents\SharpDevelop Projects\UDPserver\UDPserver\bin\Debug\UDPserver.exe.config
+C:\Users\yyuso\Documents\SharpDevelop Projects\UDPserver\UDPserver\bin\Debug\UDPserver.exe
+C:\Users\yyuso\Documents\SharpDevelop Projects\UDPserver\UDPserver\bin\Debug\UDPserver.pdb
+C:\Users\yyuso\Documents\SharpDevelop Projects\UDPserver\UDPserver\obj\Debug\UDPserver.csprojResolveAssemblyReference.cache
+C:\Users\yyuso\Documents\SharpDevelop Projects\UDPserver\UDPserver\obj\Debug\UDPserver.MainForm.resources
+C:\Users\yyuso\Documents\SharpDevelop Projects\UDPserver\UDPserver\obj\Debug\UDPserver.csproj.GenerateResource.Cache
+C:\Users\yyuso\Documents\SharpDevelop Projects\UDPserver\UDPserver\obj\Debug\UDPserver.exe
+C:\Users\yyuso\Documents\SharpDevelop Projects\UDPserver\UDPserver\obj\Debug\UDPserver.pdb
