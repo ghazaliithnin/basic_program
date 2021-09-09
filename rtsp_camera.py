@@ -2,7 +2,7 @@ import cv2
 
 #cap = cv2.VideoCapture("rtsp://admin:kayuwood@192.168.1.46/live3.sdp")
 #cap = cv2.VideoCapture("rtsp://192.168.1.39:554/media/video1") # LAN POE
-cap = cv2.VideoCapture("rtsp://192.168.0.104:554/media/video1") # LAN POE
+cap = cv2.VideoCapture("rtsp://192.168.1.207:554/media/video1") # LAN POE
 #cap = cv2.VideoCapture("rtsp://192.168.1.37:554/media/video1") # LAN Switch
 #cap = cv2.VideoCapture("rtsp://192.168.1.13:554/media/video1") # direct to laptop
 

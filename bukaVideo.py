@@ -1,7 +1,7 @@
 import cv2
 
 #cap = cv2.VideoCapture("20200619070142.ts")
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 while True:
     ret, frame = cap.read()

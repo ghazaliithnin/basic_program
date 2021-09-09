@@ -20,6 +20,9 @@ C:\Users\user\Documents\boingtech_no_gui>git pull origin master --allow-unrelate
 
 C:\Users\user\Documents\boingtech_no_gui>git push -u origin master
 
+
+
+
 # update new commit
 
 > git add --all
